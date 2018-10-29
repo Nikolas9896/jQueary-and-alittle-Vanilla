@@ -7,3 +7,8 @@ $('input').attr("type", "color");
 $('input').attr("type", "text");
 //$('input').val("Input you text");
 $('input').val("text " + "hello");
+
+console.log($('select').val());
+
+	
+
