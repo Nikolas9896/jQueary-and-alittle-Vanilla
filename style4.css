@@ -1,5 +1,6 @@
 div {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background: teal;
+	border: 1px solid steelblue;
 }
