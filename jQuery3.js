@@ -20,3 +20,10 @@ $("h2").on("click", function(){
 
 	$(this).css("color", "steelblue");
 });
+
+$("button").on("mouseenter", function(){
+	$(this).css("font-weight", "bold");
+})
+$("button").on("mouseleave", function(){
+	$(this).css("font-weight", "normal");
+})
