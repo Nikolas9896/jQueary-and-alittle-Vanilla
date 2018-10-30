@@ -10,8 +10,13 @@ $('button').click(function()
 });
 
 $('input[type="text"]').keypress(function(event){
-	if(event.which===13);
+	if(event.which===13)
 	{
-		aletr("You hit ENTER!!! Are you kidding?");
+		alert("You hit ENTER!!! Are you kidding?");
 	}
+});
+
+$("h2").on("click", function(){
+
+	$(this).css("color", "steelblue");
 });
