@@ -1,4 +1,4 @@
-$("h1").css("color", "steelblue");
+//$("h1").css("color", "steelblue");
 $('ul').text();
 $('ul').html("<li> I hacked your UL!</li><li>Rusty is still adorable!</li>");
 $('img').css("width", "200px");
@@ -10,5 +10,7 @@ $('input').val("text " + "hello");
 
 console.log($('select').val());
 
+$('h1').addClass('correct');
+$('li').addClass('wrong');
 	
 
