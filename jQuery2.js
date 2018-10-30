@@ -15,5 +15,8 @@ $('li').addClass('wrong');
 $('li').removeClass('wrong').addClass('correct');
 $('h1').toggle('correct');
 $('h1').toggle('correct');
+
+$('li:nth-of-type(2)').toggle('done');
+$('li').toggle('done');
 	
 
