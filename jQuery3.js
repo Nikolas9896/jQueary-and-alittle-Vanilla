@@ -10,5 +10,8 @@ $('button').click(function()
 });
 
 $('input[type="text"]').keypress(function(event){
-	console.log(event);
+	if(event.which===13);
+	{
+		aletr("You hit ENTER!!! Are you kidding?");
+	}
 });
